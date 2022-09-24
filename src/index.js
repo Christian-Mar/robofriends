@@ -1,10 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Card from './Card';
+import CardList from './CardList';
 import { robots } from './robots';
 import styles from './index.module.css';
 
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+	<React.StrictMode>
+		<div className={styles.container}>
+			<CardList robots={robots} />
+		</div>
+	</React.StrictMode>
+);
+
+/* 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
@@ -15,4 +26,4 @@ root.render(
 		</div>
 	</React.StrictMode>
 );
-
+*/
