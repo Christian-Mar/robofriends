@@ -1,0 +1,19 @@
+.container {
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  background-color: mintcream;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 1rem;
+  padding: .5rem;
+}
+
+.container_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
